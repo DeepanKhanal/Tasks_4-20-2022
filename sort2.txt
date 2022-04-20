@@ -1,0 +1,10 @@
+#!/bin/bash/
+
+echo "Before sorting the numbers $1"
+
+cat $1
+
+echo "Afterr sorting the numbers"
+
+sort -u -n $1
+
